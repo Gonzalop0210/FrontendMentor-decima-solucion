@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan';
+}
+
+body {
+    padding: 60px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.container__main {
+    max-width: 500px;
+}
+
+.container__content {
+    text-align: center;
+}
+
+.title {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    padding: 0 30px;
+    letter-spacing: -1px;
+}
+
+.paragraph {
+    color: hsl(300, 43%, 22%);
+    margin: 20px 0 35px 0;
+    line-height: 23px;
+}
+
+.container__stars {
+    color: hsl(300, 43%, 22%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.stars__text {
+    background-color: hsl(300, 24%, 96%);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.stars__item {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    margin-bottom: 5px;
+}
+
+.img__stars {
+    width: 12px;
+}
+
+.text {
+    font-weight: 700;
+    font-size: .8rem;
+}
+
+.container__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cards__1 {
+    margin-top: 30px;
+}
+
+.cards {
+    background-color: hsl(300, 43%, 22%);
+    color: hsl(0, 0%, 100%);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.perfil__name {
+    display: flex;
+    align-items: center;
+}
+
+.name__job {
+    margin-left: 20px;
+}
+
+.name, .job {
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.job {
+    color: hsl(333, 80%, 67%);
+    margin-top: 8px;
+}
+
+.perfil {
+    border-radius: 50%;
+    width: 45px;
+}
+
+.paragraph__cards {
+    margin-top: 25px;
+    line-height: 25px;
+}
